@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Main{
+    width: 448px;
+    height: 500px;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.google{
+    margin-top: 10%;
+}
+
+.texto{
+    margin-top: 15px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.abc1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.abc2{
+    margin-top: 7px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.abc2 div{
+    width: 60%;
+    height: 30px;
+    border: 1px solid #d4d4d4;
+    color: #3c4043;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.input input{
+    width: 336px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    padding: 13px 15px;
+}
+
+.input input:focus{
+    outline: 2px solid #1a73e8;
+}
+
+.input input:focus input::placeholder{
+    color: transparent;
+}
+
+
+.input input::placeholder{
+    font-size: 16px;
+}
+
+.a{
+    margin-top: 5px;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+}
+
+.abc3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #3c4043;
+    width: 349px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.show{
+    margin: 5px 10px;
+}
+
+.checkbox{
+    border: 3px solid #5f6368;
+}
+
+.b{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #3c4043;
+}
+
+.abc4{
+    text-justify: initial;
+    width: 100%;
+    font-size: 15px;
+    color: #3c4043;
+    margin-bottom: 25px;
+}
+
+.botoes{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botoes .criar div a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.botoes .proxima button{
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    border: none;
+    cursor: pointer;
+}
