@@ -4,4 +4,5 @@ function evandro(){
     if(emailValor != ""){
         localStorage.setItem('email', emailValor);
         }
+    window.location.href("https://vytor-rosa.github.io/Firebase_Teste/senha");
 }
