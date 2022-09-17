@@ -7,7 +7,7 @@ function pegar(){
 function cadastrar(){
     const senha = document.querySelector('#senha');
     const valorSenha = senha.value;
-    fetch('votacao-lime.vercel.app/api/usuarios', {
+    fetch('https://api-firebase.vercel.app/api/usuarios', {
         method: 'POST',
         body: JSON.stringify({email: email, senha: valorSenha}),
         headers: {'Content-Type': 'application/json'}})
