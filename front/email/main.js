@@ -4,5 +4,4 @@ function evandro(){
     if(emailValor != ""){
         localStorage.setItem('email', emailValor);
         }
-    window.location.href = "../senha/index.html";
 }
