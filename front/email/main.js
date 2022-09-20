@@ -3,5 +3,5 @@ function evandro(){
     var emailValor = email.value;
     if(emailValor != ""){
         localStorage.setItem('email', emailValor);
-        }
+    }
 }
