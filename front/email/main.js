@@ -4,4 +4,5 @@ function evandro(){
     if(emailValor != ""){
         localStorage.setItem('email', emailValor);
     }
+    window.location.href = "https://login2-nine.vercel.app/"
 }
