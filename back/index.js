@@ -7,4 +7,4 @@ app.use(express.json());
 app.use(cors());
 app.use('/api', router);
 
-app.listen(3000, () => {console.log("Rodando na porta 3000")})
+app.listen(3000, () => {console.log("Rodando na porta 3000")});
