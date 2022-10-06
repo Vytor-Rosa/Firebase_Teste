@@ -16,7 +16,6 @@ export class SenhaComponent implements OnInit {
   senha = "";
   email = localStorage.getItem('email');
 
-
     cadastrar(){
     fetch('https://api-firebase.vercel.app/api/usuarios', {
         method: 'POST',
@@ -24,5 +23,4 @@ export class SenhaComponent implements OnInit {
         headers: {'Content-Type': 'application/json'}})
         this.router.navigate(['/main/']);
 }
-
 }
